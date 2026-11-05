@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.wrangler/
+.venv/
+__pycache__/
+.taste-skill/
+.claude/
+.impeccable/
+pipeline/.originales/

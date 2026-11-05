@@ -1,0 +1,14 @@
+{
+  "name": "sphaera",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "El círculo y la esfera con el scroll, en láminas antiguas de dominio público.",
+  "scripts": {
+    "test": "node test/sphaera.test.mjs",
+    "build": "node scripts/build.mjs",
+    "dev": "npm run build && node scripts/dev.mjs",
+    "deploy": "npm run build && npx --yes wrangler@4.151.2 deploy"
+  },
+  "engines": { "node": ">=22" }
+}

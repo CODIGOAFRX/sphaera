@@ -1,0 +1,987 @@
+{
+ "luz": {
+  "titulo": "La luz brota de la oscuridad",
+  "autor": "Robert Fludd",
+  "fecha": "1617",
+  "obra": "Utriusque cosmi historia",
+  "fuente": "Internet Archive / The Getty",
+  "ficha": "https://pdimagearchive.org/images/0782b0b7-95e1-4911-9fc5-470740e2201c/",
+  "archivos": [
+   {
+    "archivo": "luz-780.webp",
+    "ancho": 780,
+    "alto": 780
+   }
+  ]
+ },
+ "infinito": {
+  "titulo": "La nada anterior al universo: «Et sic in infinitum»",
+  "autor": "Robert Fludd",
+  "fecha": "1617",
+  "obra": "Utriusque cosmi historia",
+  "fuente": "The Public Domain Review",
+  "ficha": "https://pdimagearchive.org/images/072a96fd-dfec-452b-bad8-398da01ff0e6/",
+  "archivos": [
+   {
+    "archivo": "infinito-700.webp",
+    "ancho": 700,
+    "alto": 719
+   },
+   {
+    "archivo": "infinito-1160.webp",
+    "ancho": 1160,
+    "alto": 1192
+   }
+  ]
+ },
+ "delsarte": {
+  "titulo": "Movimientos del brazo y la mano derechos",
+  "autor": "Genevieve Stebbins",
+  "fecha": "1886",
+  "obra": "Delsarte System of Dramatic Expression",
+  "fuente": "Internet Archive / University of Toronto Libraries",
+  "ficha": "https://pdimagearchive.org/images/2c3efa82-e8c8-447a-af3d-376733be5199/",
+  "archivos": [
+   {
+    "archivo": "delsarte-700.webp",
+    "ancho": 700,
+    "alto": 712
+   },
+   {
+    "archivo": "delsarte-1400.webp",
+    "ancho": 1400,
+    "alto": 1424
+   }
+  ]
+ },
+ "melencolia": {
+  "titulo": "Melencolia I",
+  "autor": "Albrecht Dürer",
+  "fecha": "1514",
+  "obra": "Grabado a buril",
+  "fuente": "The Metropolitan Museum of Art",
+  "ficha": "https://pdimagearchive.org/images/f8c1dca9-a683-4258-9231-6481490c66ca/",
+  "archivos": [
+   {
+    "archivo": "melencolia-600.webp",
+    "ancho": 600,
+    "alto": 769
+   },
+   {
+    "archivo": "melencolia-1090.webp",
+    "ancho": 1090,
+    "alto": 1397
+   }
+  ]
+ },
+ "nudo": {
+  "titulo": "El sexto nudo",
+  "autor": "Albrecht Dürer, a partir de la Academia de Leonardo",
+  "fecha": "antes de 1521",
+  "obra": "Xilografía",
+  "fuente": "The Metropolitan Museum of Art",
+  "ficha": "https://pdimagearchive.org/images/bff514ad-5e2c-41df-9e30-dd6b9c820b7e/",
+  "archivos": [
+   {
+    "archivo": "nudo-700.webp",
+    "ancho": 700,
+    "alto": 700
+   },
+   {
+    "archivo": "nudo-1400.webp",
+    "ancho": 1400,
+    "alto": 1400
+   }
+  ]
+ },
+ "rosetas": {
+  "titulo": "Rosetas de círculos y desarrollos de poliedros",
+  "autor": "Augustin Hirschvogel",
+  "fecha": "1543",
+  "obra": "Geometria",
+  "fuente": "SLUB Dresden",
+  "ficha": "https://pdimagearchive.org/images/e42103f2-b689-454e-a0a8-0ad6c9c22b2a/",
+  "archivos": [
+   {
+    "archivo": "rosetas-700.webp",
+    "ancho": 700,
+    "alto": 959
+   },
+   {
+    "archivo": "rosetas-1400.webp",
+    "ancho": 1400,
+    "alto": 1918
+   }
+  ]
+ },
+ "divisiones": {
+  "titulo": "El círculo partido en tres, cuatro, cinco y seis",
+  "autor": "Augustin Hirschvogel",
+  "fecha": "1543",
+  "obra": "Geometria",
+  "fuente": "SLUB Dresden",
+  "ficha": "https://pdimagearchive.org/images/f2bae4c8-c68c-46ca-a584-272cf2269a48/",
+  "archivos": [
+   {
+    "archivo": "divisiones-700.webp",
+    "ancho": 700,
+    "alto": 927
+   },
+   {
+    "archivo": "divisiones-1400.webp",
+    "ancho": 1400,
+    "alto": 1854
+   }
+  ]
+ },
+ "torno-1": {
+  "titulo": "Muestra de torneado de fantasía",
+  "autor": "Edward J. Woolsey",
+  "fecha": "1869",
+  "obra": "Specimens of Fancy Turning",
+  "fuente": "Philadelphia Museum of Art",
+  "ficha": "https://pdimagearchive.org/images/e963af5f-fd24-42e2-be0a-f699d9413c15/",
+  "archivos": [
+   {
+    "archivo": "torno-1-640.webp",
+    "ancho": 640,
+    "alto": 640
+   }
+  ]
+ },
+ "torno-2": {
+  "titulo": "Muestra de torneado de fantasía",
+  "autor": "Edward J. Woolsey",
+  "fecha": "1869",
+  "obra": "Specimens of Fancy Turning",
+  "fuente": "Philadelphia Museum of Art",
+  "ficha": "https://pdimagearchive.org/images/daadbb5e-db32-46bb-b52c-a0e75301b405/",
+  "archivos": [
+   {
+    "archivo": "torno-2-640.webp",
+    "ancho": 640,
+    "alto": 640
+   }
+  ]
+ },
+ "torno-3": {
+  "titulo": "Muestra de torneado de fantasía",
+  "autor": "Edward J. Woolsey",
+  "fecha": "1869",
+  "obra": "Specimens of Fancy Turning",
+  "fuente": "Philadelphia Museum of Art",
+  "ficha": "https://pdimagearchive.org/images/74a47e2a-d487-4050-8977-a190f1345fdd/",
+  "archivos": [
+   {
+    "archivo": "torno-3-640.webp",
+    "ancho": 640,
+    "alto": 640
+   }
+  ]
+ },
+ "torno-4": {
+  "titulo": "Muestra de torneado de fantasía",
+  "autor": "Edward J. Woolsey",
+  "fecha": "1869",
+  "obra": "Specimens of Fancy Turning",
+  "fuente": "Philadelphia Museum of Art",
+  "ficha": "https://pdimagearchive.org/images/870d1684-1ef5-422d-8d03-165b0469db31/",
+  "archivos": [
+   {
+    "archivo": "torno-4-640.webp",
+    "ancho": 640,
+    "alto": 640
+   }
+  ]
+ },
+ "torno-5": {
+  "titulo": "Muestra de torneado de fantasía",
+  "autor": "Edward J. Woolsey",
+  "fecha": "1869",
+  "obra": "Specimens of Fancy Turning",
+  "fuente": "Philadelphia Museum of Art",
+  "ficha": "https://pdimagearchive.org/images/ac117a83-42ef-454a-ba3f-f2f9f98a17ad/",
+  "archivos": [
+   {
+    "archivo": "torno-5-640.webp",
+    "ancho": 640,
+    "alto": 640
+   }
+  ]
+ },
+ "torno-6": {
+  "titulo": "Muestra de torneado de fantasía",
+  "autor": "Edward J. Woolsey",
+  "fecha": "1869",
+  "obra": "Specimens of Fancy Turning",
+  "fuente": "Philadelphia Museum of Art",
+  "ficha": "https://pdimagearchive.org/images/e6dc9387-6401-46f1-ab56-84a346df4020/",
+  "archivos": [
+   {
+    "archivo": "torno-6-640.webp",
+    "ancho": 640,
+    "alto": 640
+   }
+  ]
+ },
+ "torno-7": {
+  "titulo": "Muestra de torneado de fantasía",
+  "autor": "Edward J. Woolsey",
+  "fecha": "1869",
+  "obra": "Specimens of Fancy Turning",
+  "fuente": "Philadelphia Museum of Art",
+  "ficha": "https://pdimagearchive.org/images/9dde478f-1a27-460f-aafb-ddd7fb831a40/",
+  "archivos": [
+   {
+    "archivo": "torno-7-640.webp",
+    "ancho": 640,
+    "alto": 640
+   }
+  ]
+ },
+ "torno-8": {
+  "titulo": "Muestra de torneado de fantasía",
+  "autor": "Edward J. Woolsey",
+  "fecha": "1869",
+  "obra": "Specimens of Fancy Turning",
+  "fuente": "Philadelphia Museum of Art",
+  "ficha": "https://pdimagearchive.org/images/c74b298d-ace1-49b5-a5aa-1b65630e16c9/",
+  "archivos": [
+   {
+    "archivo": "torno-8-640.webp",
+    "ancho": 640,
+    "alto": 640
+   }
+  ]
+ },
+ "torno-9": {
+  "titulo": "Muestra de torneado de fantasía",
+  "autor": "Edward J. Woolsey",
+  "fecha": "1869",
+  "obra": "Specimens of Fancy Turning",
+  "fuente": "Philadelphia Museum of Art",
+  "ficha": "https://pdimagearchive.org/images/d03cb603-4689-4b87-88b3-26cbca05a5ff/",
+  "archivos": [
+   {
+    "archivo": "torno-9-640.webp",
+    "ancho": 640,
+    "alto": 640
+   }
+  ]
+ },
+ "torno-10": {
+  "titulo": "Muestra de torneado de fantasía",
+  "autor": "Edward J. Woolsey",
+  "fecha": "1869",
+  "obra": "Specimens of Fancy Turning",
+  "fuente": "Philadelphia Museum of Art",
+  "ficha": "https://pdimagearchive.org/images/955b803f-17ea-4c8f-a649-6de8ffadbb74/",
+  "archivos": [
+   {
+    "archivo": "torno-10-640.webp",
+    "ancho": 640,
+    "alto": 640
+   }
+  ]
+ },
+ "ondas": {
+  "titulo": "Las ondas del agua en un recipiente circular",
+  "autor": "Anónimo",
+  "fecha": "1869",
+  "obra": "Sound: A Series of Simple, Entertaining, and Inexpensive Experiments",
+  "fuente": "Wellcome Collection",
+  "ficha": "https://pdimagearchive.org/images/2b61d986-11b8-4b6c-8c75-6759dbe57fd7/",
+  "archivos": [
+   {
+    "archivo": "ondas-700.webp",
+    "ancho": 700,
+    "alto": 695
+   },
+   {
+    "archivo": "ondas-1400.webp",
+    "ancho": 1400,
+    "alto": 1389
+   }
+  ]
+ },
+ "chladni": {
+  "titulo": "Figuras de arena en placas circulares que vibran",
+  "autor": "Ernst Chladni",
+  "fecha": "1787",
+  "obra": "Entdeckungen über die Theorie des Klanges",
+  "fuente": "Max Planck Institute for the History of Science",
+  "ficha": "https://pdimagearchive.org/images/eec3256a-306e-4593-b3cc-2a09162c338a/",
+  "archivos": [
+   {
+    "archivo": "chladni-656.webp",
+    "ancho": 656,
+    "alto": 815
+   }
+  ]
+ },
+ "poliedro": {
+  "titulo": "Poliedros inscritos en la esfera",
+  "autor": "Augustin Hirschvogel",
+  "fecha": "1543",
+  "obra": "Geometria",
+  "fuente": "SLUB Dresden",
+  "ficha": "https://pdimagearchive.org/images/2b711b36-e5f3-4e5d-abb3-cf2cba3081e7/",
+  "archivos": [
+   {
+    "archivo": "poliedro-608.webp",
+    "ancho": 608,
+    "alto": 820
+   }
+  ]
+ },
+ "anillos": {
+  "titulo": "Dos esferas hechas de anillos",
+  "autor": "Jost Amman para Wentzel Jamnitzer",
+  "fecha": "1568",
+  "obra": "Perspectiva corporum regularium",
+  "fuente": "The Public Domain Review",
+  "ficha": "https://pdimagearchive.org/images/405e6937-ce98-4318-8da8-05adf9a8b518/",
+  "archivos": [
+   {
+    "archivo": "anillos-700.webp",
+    "ancho": 700,
+    "alto": 489
+   },
+   {
+    "archivo": "anillos-1200.webp",
+    "ancho": 1200,
+    "alto": 839
+   }
+  ]
+ },
+ "caras": {
+  "titulo": "Esferas de muchas caras",
+  "autor": "Jost Amman para Wentzel Jamnitzer",
+  "fecha": "1568",
+  "obra": "Perspectiva corporum regularium",
+  "fuente": "The Public Domain Review",
+  "ficha": "https://pdimagearchive.org/images/6ffcaaf1-4b2f-42db-8304-198628be5224/",
+  "archivos": [
+   {
+    "archivo": "caras-700.webp",
+    "ancho": 700,
+    "alto": 488
+   },
+   {
+    "archivo": "caras-1200.webp",
+    "ancho": 1200,
+    "alto": 837
+   }
+  ]
+ },
+ "stoer": {
+  "titulo": "Un cuerpo de hexágonos y pentágonos que casi es esfera",
+  "autor": "Anónimo, círculo de Lorenz Stöer",
+  "fecha": "siglo XVI",
+  "obra": "Sammlung geometrischer und perspectivischer Zeichnungen",
+  "fuente": "Herzog August Bibliothek",
+  "ficha": "https://pdimagearchive.org/images/b7f4af07-c740-498b-83ab-b6038667c7ad/",
+  "archivos": [
+   {
+    "archivo": "stoer-933.webp",
+    "ancho": 933,
+    "alto": 1221
+   }
+  ]
+ },
+ "gillray": {
+  "titulo": "Una esfera, proyectándose contra un plano",
+  "autor": "James Gillray",
+  "fecha": "1792",
+  "obra": "Aguafuerte coloreado",
+  "fuente": "The Metropolitan Museum of Art",
+  "ficha": "https://pdimagearchive.org/images/540ba909-51b6-467d-b5bd-fcf583c77ec1/",
+  "archivos": [
+   {
+    "archivo": "gillray-650.webp",
+    "ancho": 650,
+    "alto": 836
+   }
+  ]
+ },
+ "cenotafio-dia": {
+  "titulo": "Cenotafio de Newton, sección: efecto de día",
+  "autor": "Étienne-Louis Boullée",
+  "fecha": "1784",
+  "obra": "Dibujo a tinta y aguada",
+  "fuente": "Library of Congress",
+  "ficha": "https://pdimagearchive.org/images/8d0e8453-420d-40b9-bb3f-db8e90d9a165/",
+  "archivos": [
+   {
+    "archivo": "cenotafio-dia-900.webp",
+    "ancho": 900,
+    "alto": 537
+   },
+   {
+    "archivo": "cenotafio-dia-1496.webp",
+    "ancho": 1496,
+    "alto": 893
+   }
+  ]
+ },
+ "cenotafio-noche": {
+  "titulo": "Cenotafio de Newton, sección: efecto de noche",
+  "autor": "Étienne-Louis Boullée",
+  "fecha": "1784",
+  "obra": "Dibujo a tinta y aguada",
+  "fuente": "Library of Congress",
+  "ficha": "https://pdimagearchive.org/images/c91a3f05-44fb-43a0-820a-ab420ebc6ea4/",
+  "archivos": [
+   {
+    "archivo": "cenotafio-noche-900.webp",
+    "ancho": 900,
+    "alto": 547
+   },
+   {
+    "archivo": "cenotafio-noche-1515.webp",
+    "ancho": 1515,
+    "alto": 920
+   }
+  ]
+ },
+ "armonia": {
+  "titulo": "Arriba, la armonía de las esferas; abajo, las órbitas de los planetas",
+  "autor": "Anónimo",
+  "fecha": "finales del siglo XII",
+  "obra": "Cosmografía, Walters Ms. W.73",
+  "fuente": "The Walters Art Museum",
+  "ficha": "https://pdimagearchive.org/images/2a0990a3-1ffd-4c2a-8f64-928f90e68c96/",
+  "archivos": [
+   {
+    "archivo": "armonia-602.webp",
+    "ancho": 602,
+    "alto": 1024
+   }
+  ]
+ },
+ "saturno-dante": {
+  "titulo": "Paraíso, canto XXI: la subida a la esfera de Saturno",
+  "autor": "Anónimo",
+  "fecha": "hacia 1564",
+  "obra": "Divina Commedia",
+  "fuente": "Cornell University Library",
+  "ficha": "https://pdimagearchive.org/images/e601e9f6-b05e-4fb7-acbc-8198c33bf12d/",
+  "archivos": [
+   {
+    "archivo": "saturno-dante-700.webp",
+    "ancho": 700,
+    "alto": 852
+   },
+   {
+    "archivo": "saturno-dante-1400.webp",
+    "ancho": 1400,
+    "alto": 1704
+   }
+  ]
+ },
+ "ptolomeo": {
+  "titulo": "El universo según Ptolomeo",
+  "autor": "Andreas Cellarius",
+  "fecha": "1660",
+  "obra": "Harmonia macrocosmica",
+  "fuente": "Stanford University Libraries",
+  "ficha": "https://pdimagearchive.org/images/216fa04b-52f3-4c90-a291-52f1fa7760d8/",
+  "archivos": [
+   {
+    "archivo": "ptolomeo-700.webp",
+    "ancho": 700,
+    "alto": 602
+   },
+   {
+    "archivo": "ptolomeo-1145.webp",
+    "ancho": 1145,
+    "alto": 985
+   }
+  ]
+ },
+ "copernico": {
+  "titulo": "El sistema de Copérnico",
+  "autor": "Andreas Cellarius",
+  "fecha": "1660",
+  "obra": "Harmonia macrocosmica",
+  "fuente": "Stanford University Libraries",
+  "ficha": "https://pdimagearchive.org/images/bd110d92-44b4-4c75-9539-98b84218f876/",
+  "archivos": [
+   {
+    "archivo": "copernico-700.webp",
+    "ancho": 700,
+    "alto": 600
+   },
+   {
+    "archivo": "copernico-1200.webp",
+    "ancho": 1200,
+    "alto": 1028
+   }
+  ]
+ },
+ "cometas": {
+  "titulo": "Las órbitas de nueve cometas atrapados por Júpiter",
+  "autor": "Agnes Giberne",
+  "fecha": "1898",
+  "obra": "The Story of the Sun, Moon, and Stars",
+  "fuente": "Internet Archive / Library of Congress",
+  "ficha": "https://pdimagearchive.org/images/6ac8b80d-735d-41c4-846c-12c6bcc9ba91/",
+  "archivos": [
+   {
+    "archivo": "cometas-700.webp",
+    "ancho": 700,
+    "alto": 823
+   },
+   {
+    "archivo": "cometas-939.webp",
+    "ancho": 939,
+    "alto": 1104
+   }
+  ]
+ },
+ "paolo": {
+  "titulo": "Paraíso: Dante y Beatriz ante la luz",
+  "autor": "Giovanni di Paolo",
+  "fecha": "hacia 1450",
+  "obra": "Manuscrito Yates Thompson 36",
+  "fuente": "British Library",
+  "ficha": "https://pdimagearchive.org/images/fb98bd32-d07a-464a-8dac-0ce82f30780e/",
+  "archivos": [
+   {
+    "archivo": "paolo-1023.webp",
+    "ancho": 1023,
+    "alto": 586
+   }
+  ]
+ },
+ "eclipse": {
+  "titulo": "Eclipse total de Sol, observado el 29 de julio de 1878 en Creston (Wyoming)",
+  "autor": "Étienne Léopold Trouvelot",
+  "fecha": "1882",
+  "obra": "The Trouvelot Astronomical Drawings",
+  "fuente": "New York Public Library",
+  "ficha": "https://pdimagearchive.org/images/e08f7f90-a250-4b7d-9afe-f3b8a754fb38/",
+  "archivos": [
+   {
+    "archivo": "eclipse-900.webp",
+    "ancho": 900,
+    "alto": 900
+   },
+   {
+    "archivo": "eclipse-1600.webp",
+    "ancho": 1600,
+    "alto": 1600
+   }
+  ]
+ },
+ "eclipse-luna": {
+  "titulo": "Un eclipse de Sol por la Tierra, visto desde la Luna",
+  "autor": "James Nasmyth y James Carpenter",
+  "fecha": "1874",
+  "obra": "The Moon: Considered as a Planet, a World, and a Satellite",
+  "fuente": "Rijksmuseum",
+  "ficha": "https://pdimagearchive.org/images/eb557628-12a4-4752-a547-a8d240340089/",
+  "archivos": [
+   {
+    "archivo": "eclipse-luna-1023.webp",
+    "ancho": 1023,
+    "alto": 788
+   }
+  ]
+ },
+ "venus": {
+  "titulo": "Tránsito de Venus por delante del Sol",
+  "autor": "Comisión del Tránsito de Venus, Observatorio Naval de los Estados Unidos",
+  "fecha": "1882",
+  "obra": "Fotografía",
+  "fuente": "United States Naval Observatory",
+  "ficha": "https://pdimagearchive.org/images/447881cc-c636-4f20-b7b5-225f327fec84/",
+  "archivos": [
+   {
+    "archivo": "venus-500.webp",
+    "ancho": 500,
+    "alto": 500
+   }
+  ]
+ },
+ "luna-parcial": {
+  "titulo": "Eclipse parcial de Luna",
+  "autor": "Étienne Léopold Trouvelot",
+  "fecha": "1882",
+  "obra": "The Trouvelot Astronomical Drawings",
+  "fuente": "New York Public Library",
+  "ficha": "https://pdimagearchive.org/images/8893e6ab-b388-4c23-9824-5a242670afb3/",
+  "archivos": [
+   {
+    "archivo": "luna-parcial-586.webp",
+    "ancho": 586,
+    "alto": 799
+   }
+  ]
+ },
+ "fases": {
+  "titulo": "Las fases de la Luna",
+  "autor": "Andreas Cellarius",
+  "fecha": "1660",
+  "obra": "Harmonia macrocosmica",
+  "fuente": "Stanford University Libraries",
+  "ficha": "https://pdimagearchive.org/images/c1abe68d-2f14-4c45-8dc9-695f14048e96/",
+  "archivos": [
+   {
+    "archivo": "fases-700.webp",
+    "ancho": 700,
+    "alto": 593
+   },
+   {
+    "archivo": "fases-1200.webp",
+    "ancho": 1200,
+    "alto": 1016
+   }
+  ]
+ },
+ "saturno": {
+  "titulo": "El planeta Saturno",
+  "autor": "Étienne Léopold Trouvelot",
+  "fecha": "1882",
+  "obra": "The Trouvelot Astronomical Drawings",
+  "fuente": "New York Public Library",
+  "ficha": "https://pdimagearchive.org/images/cdcdb749-a0ba-4fbc-a552-99e5eaac789b/",
+  "archivos": [
+   {
+    "archivo": "saturno-900.webp",
+    "ancho": 900,
+    "alto": 684
+   },
+   {
+    "archivo": "saturno-1800.webp",
+    "ancho": 1800,
+    "alto": 1367
+   }
+  ]
+ },
+ "jupiter": {
+  "titulo": "El planeta Júpiter",
+  "autor": "Étienne Léopold Trouvelot",
+  "fecha": "1882",
+  "obra": "The Trouvelot Astronomical Drawings",
+  "fuente": "New York Public Library",
+  "ficha": "https://pdimagearchive.org/images/24f8932b-6a98-4c48-b6e0-582eda84aa92/",
+  "archivos": [
+   {
+    "archivo": "jupiter-900.webp",
+    "ancho": 900,
+    "alto": 677
+   },
+   {
+    "archivo": "jupiter-1800.webp",
+    "ancho": 1800,
+    "alto": 1353
+   }
+  ]
+ },
+ "marte": {
+  "titulo": "El planeta Marte",
+  "autor": "Étienne Léopold Trouvelot",
+  "fecha": "1882",
+  "obra": "The Trouvelot Astronomical Drawings",
+  "fuente": "New York Public Library",
+  "ficha": "https://pdimagearchive.org/images/aefb5005-9564-4cb2-ace2-a28c79470525/",
+  "archivos": [
+   {
+    "archivo": "marte-900.webp",
+    "ancho": 900,
+    "alto": 680
+   },
+   {
+    "archivo": "marte-1800.webp",
+    "ancho": 1800,
+    "alto": 1359
+   }
+  ]
+ },
+ "pompa": {
+  "titulo": "Pompa de jabón",
+  "autor": "Alexandre-Blaise Desgoffe",
+  "fecha": "1882",
+  "obra": "Litografía en color",
+  "fuente": "Wellcome Collection",
+  "ficha": "https://pdimagearchive.org/images/721d20a1-3ab4-40e8-9682-4b8784470534/",
+  "archivos": [
+   {
+    "archivo": "pompa-700.webp",
+    "ancho": 700,
+    "alto": 1023
+   },
+   {
+    "archivo": "pompa-958.webp",
+    "ancho": 958,
+    "alto": 1400
+   }
+  ]
+ },
+ "cuchillo": {
+  "titulo": "Un cuchillo atraviesa una pompa; tres pompas, una dentro de otra",
+  "autor": "Anónimo",
+  "fecha": "1905",
+  "obra": "New Games and Amusements",
+  "fuente": "Internet Archive / Library of Congress",
+  "ficha": "https://pdimagearchive.org/images/22cd69af-1d92-4937-a677-a18516a39cf3/",
+  "archivos": [
+   {
+    "archivo": "cuchillo-847.webp",
+    "ancho": 847,
+    "alto": 1400
+   }
+  ]
+ },
+ "gota": {
+  "titulo": "Primera serie: una gota cae y se aplasta",
+  "autor": "Arthur Mason Worthington",
+  "fecha": "1895",
+  "obra": "The Splash of a Drop",
+  "fuente": "Internet Archive / University of Toronto Libraries",
+  "ficha": "https://pdimagearchive.org/images/fe3fc9b0-6acd-486b-a72a-4aeef1441c04/",
+  "archivos": [
+   {
+    "archivo": "gota-985.webp",
+    "ancho": 985,
+    "alto": 1234
+   }
+  ]
+ },
+ "salpicadura": {
+  "titulo": "Fotografías de sombra instantáneas de una gota de mercurio",
+  "autor": "Arthur Mason Worthington",
+  "fecha": "1895",
+  "obra": "The Splash of a Drop",
+  "fuente": "Internet Archive / University of Toronto Libraries",
+  "ficha": "https://pdimagearchive.org/images/ea88cef2-5a1b-42b0-b27c-fd26eb71ccb4/",
+  "archivos": [
+   {
+    "archivo": "salpicadura-930.webp",
+    "ancho": 930,
+    "alto": 1240
+   }
+  ]
+ },
+ "globo": {
+  "titulo": "Globo de vidrio agrietado por la presión de dentro",
+  "autor": "James Nasmyth y James Carpenter",
+  "fecha": "1874",
+  "obra": "The Moon: Considered as a Planet, a World, and a Satellite",
+  "fuente": "Rijksmuseum",
+  "ficha": "https://pdimagearchive.org/images/79c8dff7-4b42-4012-b8c4-eb24273264c9/",
+  "archivos": [
+   {
+    "archivo": "globo-790.webp",
+    "ancho": 790,
+    "alto": 1024
+   }
+  ]
+ },
+ "diatomeas": {
+  "titulo": "Diatomeas, aumentadas 170 veces",
+  "autor": "Marinus Pieter Filbri",
+  "fecha": "1887-1888",
+  "obra": "Fotomicrografía",
+  "fuente": "Rijksmuseum",
+  "ficha": "https://pdimagearchive.org/images/0959db6d-d3e1-4fce-95de-451ca023fc6e/",
+  "archivos": [
+   {
+    "archivo": "diatomeas-900.webp",
+    "ancho": 900,
+    "alto": 900
+   }
+  ]
+ },
+ "mosca": {
+  "titulo": "Ojo de mosca, aumentado 170 veces",
+  "autor": "Marinus Pieter Filbri",
+  "fecha": "1887-1888",
+  "obra": "Fotomicrografía",
+  "fuente": "Rijksmuseum",
+  "ficha": "https://pdimagearchive.org/images/e9b58869-4f03-4879-acc4-1a9477844641/",
+  "archivos": [
+   {
+    "archivo": "mosca-900.webp",
+    "ancho": 900,
+    "alto": 900
+   }
+  ]
+ },
+ "radial": {
+  "titulo": "Diatomea, aumentada 190 veces",
+  "autor": "Marinus Pieter Filbri",
+  "fecha": "1887-1888",
+  "obra": "Fotomicrografía",
+  "fuente": "Rijksmuseum",
+  "ficha": "https://pdimagearchive.org/images/51572f30-54fa-4fa3-9849-9596d5cb01f9/",
+  "archivos": [
+   {
+    "archivo": "radial-900.webp",
+    "ancho": 900,
+    "alto": 900
+   }
+  ]
+ },
+ "triangulo": {
+  "titulo": "Diatomea triangular, aumentada 190 veces",
+  "autor": "Marinus Pieter Filbri",
+  "fecha": "1887-1888",
+  "obra": "Fotomicrografía",
+  "fuente": "Rijksmuseum",
+  "ficha": "https://pdimagearchive.org/images/c3c1c2e3-9460-4f39-830f-8fcc2634a243/",
+  "archivos": [
+   {
+    "archivo": "triangulo-900.webp",
+    "ancho": 900,
+    "alto": 900
+   }
+  ]
+ },
+ "heliopelta": {
+  "titulo": "Diatomea Heliopelta metii",
+  "autor": "Arthur E. Smith",
+  "fecha": "1909",
+  "obra": "Nature Through Microscope and Camera",
+  "fuente": "Internet Archive / California Digital Library",
+  "ficha": "https://pdimagearchive.org/images/1ac971f4-b746-469a-8c19-d5cfdcfac79c/",
+  "archivos": [
+   {
+    "archivo": "heliopelta-540.webp",
+    "ancho": 540,
+    "alto": 540
+   }
+  ]
+ },
+ "schmidt": {
+  "titulo": "Diatomeas, lámina 131",
+  "autor": "Adolf Schmidt",
+  "fecha": "1890",
+  "obra": "Atlas der Diatomaceenkunde",
+  "fuente": "Biodiversity Heritage Library / Smithsonian Libraries",
+  "ficha": "https://pdimagearchive.org/images/27141db0-d150-4b1d-86de-6faef2c445f4/",
+  "archivos": [
+   {
+    "archivo": "schmidt-700.webp",
+    "ancho": 700,
+    "alto": 996
+   },
+   {
+    "archivo": "schmidt-984.webp",
+    "ancho": 984,
+    "alto": 1400
+   }
+  ]
+ },
+ "radiolarios": {
+  "titulo": "Radiolarios",
+  "autor": "Ernst Haeckel",
+  "fecha": "1862",
+  "obra": "Die Radiolarien (Rhizopoda radiaria)",
+  "fuente": "Biodiversity Heritage Library / Harvard University",
+  "ficha": "https://pdimagearchive.org/images/fa6510fc-ae09-486f-9e17-15220099e29b/",
+  "archivos": [
+   {
+    "archivo": "radiolarios-610.webp",
+    "ancho": 610,
+    "alto": 864
+   }
+  ]
+ },
+ "radiolarios-2": {
+  "titulo": "Radiolarios",
+  "autor": "Ernst Haeckel",
+  "fecha": "1862",
+  "obra": "Die Radiolarien (Rhizopoda radiaria)",
+  "fuente": "Biodiversity Heritage Library / Harvard University",
+  "ficha": "https://pdimagearchive.org/images/cc4c22dd-a6d4-47eb-882f-403ff1f3d092/",
+  "archivos": [
+   {
+    "archivo": "radiolarios-2-610.webp",
+    "ancho": 610,
+    "alto": 868
+   }
+  ]
+ },
+ "esponja": {
+  "titulo": "Un trozo de esponja al microscopio",
+  "autor": "Martin Frobenius Ledermüller",
+  "fecha": "1764-1768",
+  "obra": "Mikroskopische Gemüths- und Augen-Ergötzung",
+  "fuente": "Biodiversity Heritage Library / Smithsonian Libraries",
+  "ficha": "https://pdimagearchive.org/images/02d31ba1-1653-4915-a7d9-f84021d91e4b/",
+  "archivos": [
+   {
+    "archivo": "esponja-900.webp",
+    "ancho": 900,
+    "alto": 900
+   }
+  ]
+ },
+ "vibrio": {
+  "titulo": "Vibrio tritici, gusanos nematodos",
+  "autor": "Orra White Hitchcock",
+  "fecha": "1828-1840",
+  "obra": "Dibujo para las clases de Edward Hitchcock",
+  "fuente": "Amherst College",
+  "ficha": "https://pdimagearchive.org/images/ae28e6c3-0fde-4371-bbb9-0988692e3b68/",
+  "archivos": [
+   {
+    "archivo": "vibrio-900.webp",
+    "ancho": 900,
+    "alto": 900
+   }
+  ]
+ },
+ "gota-agua": {
+  "titulo": "Gota I",
+  "autor": "Agnes Catlow",
+  "fecha": "1851",
+  "obra": "Drops of Water",
+  "fuente": "Internet Archive / University of Toronto Libraries",
+  "ficha": "https://pdimagearchive.org/images/d5d27d64-2d6d-401f-9e41-2a085e4c49ee/",
+  "archivos": [
+   {
+    "archivo": "gota-agua-752.webp",
+    "ancho": 752,
+    "alto": 752
+   }
+  ]
+ },
+ "homo-bulla": {
+  "titulo": "Homo bulla: el hombre es una pompa",
+  "autor": "Taller de Hendrick Goltzius",
+  "fecha": "1594",
+  "obra": "Grabado a buril",
+  "fuente": "Rijksmuseum",
+  "ficha": "https://pdimagearchive.org/images/1b290d5d-46e6-44a4-844b-7c7d26da39a2/",
+  "archivos": [
+   {
+    "archivo": "homo-bulla-700.webp",
+    "ancho": 700,
+    "alto": 944
+   },
+   {
+    "archivo": "homo-bulla-1038.webp",
+    "ancho": 1038,
+    "alto": 1400
+   }
+  ]
+ },
+ "leclerc": {
+  "titulo": "Corte de la Tierra, con un ángel que sopla pompas",
+  "autor": "Sébastien Leclerc",
+  "fecha": "1706",
+  "obra": "Aguafuerte",
+  "fuente": "Rijksmuseum",
+  "ficha": "https://pdimagearchive.org/images/e933c5ba-f1f9-43f9-9c6d-a0b1d2d5c569/",
+  "archivos": [
+   {
+    "archivo": "leclerc-860.webp",
+    "ancho": 860,
+    "alto": 1400
+   }
+  ]
+ }
+}

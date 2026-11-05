@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sphaera · El círculo y la esfera, en láminas antiguas</title>
+    <meta name="description" content="Del compás de Euclides a la pompa de jabón: la geometría del círculo y la esfera con el scroll, en {{n}} láminas de dominio público, del siglo XII a 1909.">
+    <meta name="author" content="Pedro Gómez">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#0f0f0e">
+    <link rel="canonical" href="https://www.pedrogomez.dev{{BASE}}/">
+    <link rel="icon" href="{{BASE}}/favicon.svg" type="image/svg+xml">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:title" content="Sphaera · El círculo y la esfera">
+    <meta property="og:description" content="Un punto, un compás y una vuelta: la geometría del círculo y la esfera, de Euclides a la pompa de jabón, con láminas antiguas.">
+    <meta property="og:url" content="https://www.pedrogomez.dev{{BASE}}/">
+    <meta property="og:image" content="https://www.pedrogomez.dev{{BASE}}/media/og.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preload" href="{{BASE}}/fonts/jost.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="{{BASE}}/sphaera.css?v={{v:sphaera.css}}">
+    <script type="module" src="{{BASE}}/sphaera.js?v={{v:sphaera.js}}"></script>
+</head>
+
+<body>
+    <a class="saltar" href="#centro">Saltar al texto</a>
+
+    <!-- Cabecera fija: la marca, el capítulo que se está leyendo y un círculo que se cierra con la página -->
+    <header class="cabecera">
+        <a class="cabecera__marca" href="#inicio">Sphaera</a>
+        <p class="cabecera__donde" id="donde" aria-live="off"></p>
+        <a class="cabecera__autor" href="https://www.pedrogomez.dev/">Pedro Gómez</a>
+        <svg class="cabecera__avance" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9"/>
+            <circle class="cabecera__arco" cx="12" cy="12" r="9" pathLength="1" transform="rotate(-90 12 12)"/>
+        </svg>
+    </header>
+
+    <main>
+        <!-- Portada: un punto, el brazo de un compás que da la vuelta y, dentro del círculo que deja, la luz
+             que Fludd hace brotar de la oscuridad -->
+        <section id="inicio" class="portada" data-lugar="">
+            <div class="portada__escenario">
+                <div class="portada__texto">
+                    <h1 class="portada__titulo">Sphaera</h1>
+                    <p class="portada__frase">El círculo y la esfera, del compás de Euclides a la pompa de jabón, en láminas antiguas.</p>
+                    <a class="boton" href="#centro">Empezar por el centro</a>
+                </div>
+                <figure class="portada__lamina">
+                    <div class="portada__disco">
+                        <img data-l="luz" sizes="(min-width: 900px) 46vw, 84vw" fetchpriority="high" alt="Grabado redondo: un disco de rayos claros que se abre desde un centro negro, rodeado de oscuridad">
+                        {{svg:compas}}
+                    </div>
+                    <figcaption>La luz brota de la oscuridad. Robert Fludd, 1617.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Un centro y una distancia: los radios se multiplican y todos miden lo mismo -->
+        <section id="centro" class="capitulo radiacion" data-lugar="Un centro y una distancia">
+            <div class="fijo fijo--radiacion">
+            <div class="radiacion__escenario">
+                <div class="radiacion__texto">
+                    <h2 class="titulo">Un centro y una distancia</h2>
+                    <blockquote class="cita">
+                        <p>Círculo es una figura plana comprendida por una sola línea, tal que todas las rectas que caen sobre ella desde uno de los puntos de dentro de la figura son iguales entre sí.</p>
+                        <footer>Euclides, <cite>Elementos</cite>, libro I, definición 15. Hacia el 300 a.&nbsp;C.</footer>
+                    </blockquote>
+                    <p class="radiacion__cuenta" aria-hidden="true"><span id="cuenta-radios">64</span> radios, todos iguales</p>
+                </div>
+                <div class="radiacion__figura">{{svg:radios}}</div>
+            </div>
+            </div>
+            <div class="mesa mesa--compas">
+                <p class="mesa__entrada" data-entra>Para trazarlo bastan un punto fijo y una distancia que no cambia: la abertura de un compás, una cuerda atada a una estaca o el brazo que gira desde el hombro.</p>
+                <figure class="mesa__pieza mesa__pieza--a" data-entra>
+                    <img data-l="melencolia" loading="lazy" sizes="(min-width: 900px) 34vw, 92vw" alt="Grabado de Durero: un ángel pensativo sentado con un compás en la mano; a sus pies, una esfera de piedra">
+                    <figcaption>El ángel tiene el compás en la mano y la esfera a los pies. <span>Melencolia I. Albrecht Dürer, 1514.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--b" data-entra>
+                    <img data-l="delsarte" loading="lazy" sizes="(min-width: 900px) 26vw, 92vw" alt="Diagrama circular con flechas que salen del centro hacia el borde, cada una con el nombre de un gesto del brazo">
+                    <figcaption>El brazo como radio: cada gesto, una dirección desde el hombro. <span>Genevieve Stebbins, 1886.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--c" data-entra>
+                    <img data-l="nudo" loading="lazy" sizes="(min-width: 900px) 30vw, 92vw" alt="Xilografía negra con un gran círculo lleno de lazos blancos entrelazados que forman ruedas más pequeñas">
+                    <figcaption>Un solo hilo que nunca sale del círculo. <span>El sexto nudo. Albrecht Dürer, antes de 1521.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--d" data-entra>
+                    <img data-l="rosetas" loading="lazy" sizes="(min-width: 900px) 24vw, 92vw" alt="Página de geometría con rosetas hechas de círculos que se cortan, estrellas inscritas y desarrollos de poliedros">
+                    <figcaption>Círculos del mismo radio que se cortan y dan flores. <span>Augustin Hirschvogel, 1543.</span></figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Arquímedes: el círculo entre dos polígonos que van doblando sus lados -->
+        <section id="pi" class="capitulo arquimedes" data-lugar="Tres veces y un poco más">
+            <div class="fijo fijo--arquimedes">
+            <div class="arquimedes__escenario">
+                <div class="arquimedes__figura">{{svg:poligonos}}</div>
+                <div class="arquimedes__texto">
+                    <h2 class="titulo">Tres veces y un poco más</h2>
+                    <p>El borde de un círculo mide algo más de tres veces su diámetro, y ese «algo más» no se acaba nunca: es π. Arquímedes lo acorraló hacia el 250 a.&nbsp;C. con dos polígonos, uno dentro y otro fuera, y fue doblando sus lados de 6 a 96.</p>
+                    <table class="cerco">
+                        <caption>Perímetro de cada polígono dividido por el diámetro</caption>
+                        <thead>
+                            <tr><th scope="col">Lados</th><th scope="col">Dentro</th><th scope="col">Fuera</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr data-n="6"><th scope="row">6</th><td>3,0000</td><td>3,4641</td></tr>
+                            <tr data-n="12"><th scope="row">12</th><td>3,1058</td><td>3,2154</td></tr>
+                            <tr data-n="24"><th scope="row">24</th><td>3,1326</td><td>3,1597</td></tr>
+                            <tr data-n="48"><th scope="row">48</th><td>3,1394</td><td>3,1461</td></tr>
+                            <tr data-n="96"><th scope="row">96</th><td>3,1410</td><td>3,1427</td></tr>
+                        </tbody>
+                    </table>
+                    <p class="arquimedes__cierre">Con 96 lados dejó π entre 223/71 y 22/7: entre 3,1408 y 3,1429. Hoy se conocen billones de cifras, y siguen sin repetirse.</p>
+                </div>
+            </div>
+            </div>
+            <figure class="arquimedes__lamina" data-entra>
+                <img data-l="divisiones" loading="lazy" sizes="(min-width: 900px) 30vw, 80vw" alt="Página de un tratado de geometría: círculos divididos con regla y compás en tres, cuatro, cinco y seis partes iguales">
+                <figcaption>El círculo partido en partes iguales con regla y compás. <span>Augustin Hirschvogel, Geometria, 1543.</span></figcaption>
+            </figure>
+        </section>
+
+        <!-- El torno: diez muestras de Woolsey que giran con el scroll mientras pasan -->
+        <section id="torno" class="capitulo torno" data-lugar="Círculos sobre círculos">
+            <div class="torno__escenario">
+                <div class="torno__cabeza">
+                    <h2 class="titulo">Círculos sobre círculos</h2>
+                    <p>Con un torno y unos platos excéntricos, la cuchilla traza un círculo mientras el centro de ese círculo da vueltas en otro. Edward J. Woolsey fotografió lo que salía en 1869: flores, nudos y coronas, todo hecho de vueltas.</p>
+                </div>
+                <ol class="torno__pista">
+                    <li><img data-l="torno-1" loading="lazy" sizes="(min-width: 900px) 34vh, 70vw" alt="Lazo de líneas finas en forma de anillo doble y retorcido"></li>
+                    <li><img data-l="torno-2" loading="lazy" sizes="(min-width: 900px) 34vh, 70vw" alt="Rosetón: un círculo de pequeñas espirales alrededor de una flor de cuatro pétalos"></li>
+                    <li><img data-l="torno-3" loading="lazy" sizes="(min-width: 900px) 34vh, 70vw" alt="Corona de lazos finos con un hueco redondo en el centro"></li>
+                    <li><img data-l="torno-4" loading="lazy" sizes="(min-width: 900px) 34vh, 70vw" alt="Flor de muchas hojas hecha de óvalos que se cruzan"></li>
+                    <li><img data-l="torno-5" loading="lazy" sizes="(min-width: 900px) 34vh, 70vw" alt="Estrella de ocho brazos hecha de espirales apretadas"></li>
+                    <li><img data-l="torno-6" loading="lazy" sizes="(min-width: 900px) 34vh, 70vw" alt="Estrella de seis puntas dentro de un anillo de espirales"></li>
+                    <li><img data-l="torno-7" loading="lazy" sizes="(min-width: 900px) 34vh, 70vw" alt="Cadena circular de eslabones trenzados"></li>
+                    <li><img data-l="torno-8" loading="lazy" sizes="(min-width: 900px) 34vh, 70vw" alt="Guirnalda de lazos sueltos en círculo"></li>
+                    <li><img data-l="torno-9" loading="lazy" sizes="(min-width: 900px) 34vh, 70vw" alt="Dos órbitas de cuentas que se cruzan alrededor de una roseta"></li>
+                    <li><img data-l="torno-10" loading="lazy" sizes="(min-width: 900px) 34vh, 70vw" alt="Cruz de cuatro brazos redondeados con una estrella en el centro"></li>
+                </ol>
+                <p class="torno__pie">Specimens of Fancy Turning. Edward J. Woolsey, 1869. Diez de sus fotografías.</p>
+            </div>
+        </section>
+
+        <section class="capitulo vibra" data-lugar="Círculos sobre círculos">
+            <figure class="vibra__pieza" data-entra>
+                <img data-l="ondas" loading="lazy" sizes="(min-width: 900px) 40vw, 92vw" alt="Grabado de un recipiente redondo visto desde arriba, cubierto de círculos de ondas que se cruzan">
+                <figcaption>Ondas de agua en un recipiente redondo: rebotan en el borde y se cruzan. <span>Anónimo, 1869.</span></figcaption>
+            </figure>
+            <div class="vibra__texto" data-entra>
+                <h3 class="subtitulo">Un círculo también suena</h3>
+                <p>Ernst Chladni esparcía arena sobre placas de metal y las frotaba con un arco de violín. La arena huye de lo que vibra y se queda en las líneas que no se mueven: en una placa redonda, círculos y diámetros.</p>
+                <figure class="vibra__chladni">
+                    <img data-l="chladni" loading="lazy" sizes="(min-width: 900px) 24vw, 70vw" alt="Doce figuras de arena sobre placas circulares: anillos concéntricos cortados por diámetros">
+                    <figcaption>Ernst Chladni, 1787.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- La esfera: un círculo gira sobre su diámetro; después, la esfera dentro del cilindro de Arquímedes -->
+        <section id="esfera" class="capitulo esfera-cap" data-lugar="Un círculo que gira">
+            <div class="fijo fijo--esfera-cap">
+            <div class="esfera-cap__escenario">
+                <div class="esfera-cap__figura">{{svg:esfera}}</div>
+                <div class="esfera-cap__pasos">
+                    <div class="paso paso--1">
+                        <h2 class="titulo">Un círculo que gira</h2>
+                        <p>Si un círculo gira sobre uno de sus diámetros, deja una esfera: todos los puntos del espacio a la misma distancia de un centro.</p>
+                    </div>
+                    <div class="paso paso--2">
+                        <p class="paso__grande">2/3</p>
+                        <p>Dentro del cilindro en el que encaja, la esfera ocupa dos tercios de su volumen y tiene dos tercios de su superficie. Arquímedes pidió que lo grabaran en su tumba. Cicerón cuenta que la encontró en Siracusa en el 75 a.&nbsp;C., tapada de zarzas, por el dibujo de la esfera y el cilindro.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="mesa mesa--esfera">
+                <figure class="mesa__pieza mesa__pieza--ancha" data-entra>
+                    <img data-l="anillos" loading="lazy" sizes="(min-width: 900px) 62vw, 92vw" alt="Grabado de dos esferas sobre pedestales: una hecha de meridianos y paralelos, la otra de anillos apilados">
+                    <figcaption>La misma idea en cobre: una esfera de meridianos y otra de anillos. <span>Jost Amman para Wentzel Jamnitzer, 1568.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--alta" data-entra>
+                    <img data-l="stoer" loading="lazy" sizes="(min-width: 900px) 28vw, 92vw" alt="Dibujo en color de un cuerpo rosa de hexágonos y pentágonos huecos, casi redondo">
+                    <figcaption>Hexágonos y pentágonos que casi cierran una esfera. <span>Círculo de Lorenz Stöer, siglo XVI.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--media" data-entra>
+                    <img data-l="caras" loading="lazy" sizes="(min-width: 900px) 34vw, 92vw" alt="Dos poliedros calados de muchas caras sobre peanas, casi esféricos">
+                    <figcaption>Cuantas más caras, más se parece a la esfera. <span>Jost Amman para Wentzel Jamnitzer, 1568.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--chica" data-entra>
+                    <img data-l="poliedro" loading="lazy" sizes="(min-width: 900px) 20vw, 70vw" alt="Página antigua con un círculo que contiene un poliedro estrellado y dos poliedros pequeños encima">
+                    <figcaption>Un poliedro dentro de su esfera. <span>Augustin Hirschvogel, 1543.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--chica" data-entra>
+                    <img data-l="gillray" loading="lazy" sizes="(min-width: 900px) 20vw, 70vw" alt="Caricatura en color de una mujer muy redonda frente a un hombre alto y delgado de perfil">
+                    <figcaption>Una esfera, proyectándose contra un plano: la geometría como chiste. <span>James Gillray, 1792.</span></figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- El cenotafio de Newton: de día dentro es de noche; de noche, un fuego hace de sol -->
+        <section id="cenotafio" class="capitulo cenotafio" data-lugar="Una tumba para Newton">
+            <div class="cenotafio__escenario">
+                <div class="cenotafio__laminas">
+                    <img class="cenotafio__dia" data-l="cenotafio-dia" loading="lazy" sizes="100vw" alt="Sección de un enorme edificio esférico de día: dentro, la bóveda está oscura y llena de estrellas">
+                    <img class="cenotafio__noche" data-l="cenotafio-noche" loading="lazy" sizes="100vw" alt="La misma sección de noche: en el centro de la esfera cuelga una gran esfera armilar encendida">
+                </div>
+                <div class="cenotafio__texto">
+                    <h2 class="titulo">Una tumba para Newton</h2>
+                    <p class="cenotafio__p cenotafio__p--dia">En 1784 Étienne-Louis Boullée dibujó un cenotafio para Newton: una esfera hueca. De día, la luz entraría por agujeros abiertos en la cúpula, y dentro sería de noche, con estrellas.</p>
+                    <p class="cenotafio__p cenotafio__p--noche">De noche, una esfera armilar encendida en el centro haría de sol. No se construyó nunca.</p>
+                    <p class="cenotafio__pie">Cenotafio de Newton, efecto de día y de noche. Étienne-Louis Boullée, 1784.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- El cielo: Ptolomeo, Copérnico y Kepler en el mismo dibujo -->
+        <section id="cielo" class="capitulo cielo-cap" data-lugar="Esferas dentro de esferas">
+            <div class="fijo fijo--cielo-cap">
+            <div class="cielo-cap__escenario">
+                <div class="cielo-cap__figura">{{svg:cielo}}</div>
+                <div class="cielo-cap__pasos">
+                    <div class="paso paso--1">
+                        <h2 class="titulo">Esferas dentro de esferas</h2>
+                        <p>Durante casi dos mil años el cielo fue una cebolla de esferas transparentes, con la Tierra quieta en el centro: la Luna, Mercurio, Venus, el Sol, Marte, Júpiter y Saturno. Así lo ordenó Ptolomeo en el siglo&nbsp;II.</p>
+                    </div>
+                    <div class="paso paso--2">
+                        <p class="paso__ano">1543</p>
+                        <p>Copérnico pone el Sol en el centro y la Tierra a girar como un planeta más. Las órbitas siguen siendo círculos perfectos.</p>
+                    </div>
+                    <div class="paso paso--3">
+                        <p class="paso__ano">1609</p>
+                        <p>Kepler no consigue que Marte cuadre: con un círculo se le escapa ocho minutos de arco. Las órbitas son elipses, casi círculos, y el Sol no está en su centro sino en un foco. Fíjate en Mercurio y en Marte.</p>
+                    </div>
+                </div>
+                <p class="cielo-cap__nota">Distancias comprimidas para que quepan; formas de las órbitas, reales.</p>
+            </div>
+            </div>
+            <div class="mesa mesa--cielo">
+                <figure class="mesa__pieza mesa__pieza--alta" data-entra>
+                    <img data-l="armonia" loading="lazy" sizes="(min-width: 900px) 22vw, 70vw" alt="Página de un manuscrito con dos diagramas circulares: arriba, una banda de notas musicales; abajo, órbitas concéntricas">
+                    <figcaption>Arriba, la armonía de las esferas; abajo, las órbitas. <span>Manuscrito, finales del siglo XII.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--media" data-entra>
+                    <img data-l="ptolomeo" loading="lazy" sizes="(min-width: 900px) 36vw, 92vw" alt="Lámina en color del universo de Ptolomeo: la Tierra en el centro rodeada de anillos con los signos del zodiaco">
+                    <figcaption>La Tierra en el centro. <span>Andreas Cellarius, 1660.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--media" data-entra>
+                    <img data-l="copernico" loading="lazy" sizes="(min-width: 900px) 36vw, 92vw" alt="Lámina en color del sistema de Copérnico: el Sol con cara en el centro y los planetas en anillos alrededor">
+                    <figcaption>El Sol en el centro. <span>Andreas Cellarius, 1660.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--alta" data-entra>
+                    <img data-l="saturno-dante" loading="lazy" sizes="(min-width: 900px) 26vw, 80vw" alt="Xilografía redonda rodeada de rayos: dentro, Dante y Beatriz suben por una escalera hacia el cielo de Saturno">
+                    <figcaption>Dante sube de esfera en esfera: aquí, la de Saturno. <span>Divina Commedia, hacia 1564.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--alta" data-entra>
+                    <img data-l="cometas" loading="lazy" sizes="(min-width: 900px) 24vw, 80vw" alt="Diagrama blanco sobre negro de nueve elipses alargadas que se cruzan alrededor de un punto">
+                    <figcaption>Las elipses de verdad alargadas son las de los cometas. <span>Agnes Giberne, 1898.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--ancha" data-entra>
+                    <img data-l="paolo" loading="lazy" sizes="(min-width: 900px) 46vw, 92vw" alt="Miniatura sobre fondo azul: Dante y Beatriz flotan ante un gran sol dorado hecho de círculos de ángeles">
+                    <figcaption>Al final del viaje, la luz es un círculo. <span>Giovanni di Paolo, hacia 1450.</span></figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- El eclipse: la Luna cruza el Sol y, al taparlo justo, aparece la corona -->
+        <section id="eclipse" class="capitulo eclipse" data-lugar="Dos discos del mismo tamaño">
+            <div class="eclipse__escenario">
+                <div class="eclipse__texto">
+                    <h2 class="titulo">Dos discos del mismo tamaño</h2>
+                    <p>El Sol es unas 400 veces más ancho que la Luna y está unas 400 veces más lejos. Desde la Tierra los dos discos miden casi lo mismo, medio grado, y la Luna puede taparlo justo.</p>
+                </div>
+                <div class="eclipse__cielo">
+                    <img class="eclipse__corona" data-l="eclipse" loading="lazy" sizes="(min-width: 900px) 60vw, 120vw" alt="Dibujo de un eclipse total: un disco negro rodeado de una corona de rayos claros">
+                    {{svg:eclipse}}
+                </div>
+                <p class="eclipse__cuenta" aria-hidden="true">Tapado: <span id="tapado">100</span>&nbsp;%</p>
+                <p class="eclipse__pie">Eclipse total de Sol. Étienne Léopold Trouvelot, 1882.</p>
+            </div>
+        </section>
+
+        <!-- Lo grande es redondo: los planetas de Trouvelot sueltos sobre el negro -->
+        <section class="capitulo grande" data-lugar="Lo grande es redondo">
+            <div class="grande__cabeza" data-entra>
+                <h2 class="titulo">Lo grande es redondo</h2>
+                <p>A partir de unos cientos de kilómetros, la gravedad tira de cada trozo hacia el centro con la misma fuerza en todas direcciones y aplasta lo que sobresale. Por eso los planetas son esferas y las piedras no.</p>
+            </div>
+            <figure class="grande__planeta grande__planeta--saturno" data-entra>
+                <img data-l="saturno" loading="lazy" sizes="(min-width: 900px) 56vw, 100vw" alt="Saturno con sus anillos, en pastel sobre fondo negro">
+                <figcaption>Saturno. <span>Étienne Léopold Trouvelot, 1882.</span></figcaption>
+            </figure>
+            <figure class="grande__planeta grande__planeta--jupiter" data-entra>
+                <img data-l="jupiter" loading="lazy" sizes="(min-width: 900px) 40vw, 100vw" alt="Júpiter con sus bandas, la gran mancha roja y las sombras de sus lunas">
+                <figcaption>Júpiter, con la sombra de sus lunas. <span>Trouvelot, 1882.</span></figcaption>
+            </figure>
+            <figure class="grande__planeta grande__planeta--marte" data-entra>
+                <img data-l="marte" loading="lazy" sizes="(min-width: 900px) 32vw, 100vw" alt="Marte, un disco anaranjado con manchas oscuras">
+                <figcaption>Marte. <span>Trouvelot, 1882.</span></figcaption>
+            </figure>
+            <div class="grande__fila">
+                <figure data-entra>
+                    <img data-l="venus" loading="lazy" sizes="(min-width: 900px) 22vw, 80vw" alt="Fotografía del disco del Sol con un punto negro pequeño cerca del borde: Venus">
+                    <figcaption>Venus, un punto negro delante del Sol. <span>Observatorio Naval de los Estados Unidos, 1882.</span></figcaption>
+                </figure>
+                <figure data-entra>
+                    <img data-l="luna-parcial" loading="lazy" sizes="(min-width: 900px) 18vw, 70vw" alt="La Luna llena, roja y oscura, con una media luna clara en un lado">
+                    <figcaption>La sombra de la Tierra en la Luna es un arco: la Tierra es redonda. <span>Trouvelot, 1882.</span></figcaption>
+                </figure>
+                <figure data-entra>
+                    <img data-l="eclipse-luna" loading="lazy" sizes="(min-width: 900px) 30vw, 92vw" alt="Paisaje lunar de montañas afiladas bajo un cielo negro con un disco oscuro rodeado de luz">
+                    <figcaption>El mismo eclipse visto desde la Luna: la Tierra tapa el Sol. <span>James Nasmyth y James Carpenter, 1874.</span></figcaption>
+                </figure>
+                <figure data-entra>
+                    <img data-l="fases" loading="lazy" sizes="(min-width: 900px) 30vw, 92vw" alt="Lámina en color con la Tierra en el centro y la Luna alrededor en ocho posiciones, cada una con su fase">
+                    <figcaption>Una esfera iluminada por un lado, vista desde ocho sitios. <span>Andreas Cellarius, 1660.</span></figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Lo pequeño también: el ocular de un microscopio que cambia de muestra con el scroll -->
+        <section id="pompa" class="capitulo ocular" data-lugar="Lo pequeño también">
+            <div class="fijo fijo--ocular">
+            <div class="ocular__escenario">
+                <div class="ocular__texto">
+                    <h2 class="titulo">Lo pequeño también</h2>
+                    <p>Una pompa de jabón es redonda porque la película tira de sí misma hasta gastar la menor superficie posible, y de todas las formas que encierran un mismo volumen, la que menos superficie gasta es la esfera. A una gota le pasa lo mismo.</p>
+                    <p>Al microscopio, además, todo se mira por un círculo: el del ocular. Y algunas cosas vivas también lo son, como los caparazones de vidrio de las diatomeas.</p>
+                </div>
+                <div class="ocular__tubo">
+                    {{svg:anillo}}
+                    <ol class="ocular__muestras">
+                        <li><figure><img data-l="diatomeas" loading="lazy" sizes="(min-width: 900px) 40vw, 84vw" alt="Círculo de luz con cinco diatomeas redondas y estriadas"><figcaption>Diatomeas, aumentadas 170 veces. <span>Marinus Pieter Filbri, 1887.</span></figcaption></figure></li>
+                        <li><figure><img data-l="radial" loading="lazy" sizes="(min-width: 900px) 40vw, 84vw" alt="Una diatomea redonda con anillos y rayos, como un rosetón"><figcaption>Una diatomea, aumentada 190 veces. <span>Filbri, 1887.</span></figcaption></figure></li>
+                        <li><figure><img data-l="heliopelta" loading="lazy" sizes="(min-width: 900px) 40vw, 84vw" alt="Diatomea circular dividida en sectores como una rueda, con puntos en cada sector"><figcaption>Heliopelta, una rueda de sílice. <span>Arthur E. Smith, 1909.</span></figcaption></figure></li>
+                        <li><figure><img data-l="triangulo" loading="lazy" sizes="(min-width: 900px) 40vw, 84vw" alt="Diatomea triangular con un enrejado fino dentro del círculo de luz del microscopio"><figcaption>También hay diatomeas triangulares, y el ocular las ve en círculo. <span>Filbri, 1887.</span></figcaption></figure></li>
+                        <li><figure><img data-l="mosca" loading="lazy" sizes="(min-width: 900px) 40vw, 84vw" alt="Retícula de hexágonos claros, las facetas de un ojo, dentro de un círculo"><figcaption>El ojo de una mosca: cada faceta, una lente. <span>Filbri, 1887.</span></figcaption></figure></li>
+                        <li><figure><img data-l="esponja" loading="lazy" sizes="(min-width: 900px) 40vw, 84vw" alt="Dibujo coloreado de fibras ocres enredadas dentro de un círculo blanco"><figcaption>Un trozo de esponja. <span>Martin Frobenius Ledermüller, 1764.</span></figcaption></figure></li>
+                        <li><figure><img data-l="gota-agua" loading="lazy" sizes="(min-width: 900px) 40vw, 84vw" alt="Una gota de agua dibujada como un círculo lleno de algas y animales diminutos de colores"><figcaption>Una gota de agua y lo que vive en ella. <span>Agnes Catlow, 1851.</span></figcaption></figure></li>
+                        <li><figure><img data-l="vibrio" loading="lazy" sizes="(min-width: 900px) 40vw, 84vw" alt="Dibujo circular de gusanos nematodos enroscados"><figcaption>Gusanos del trigo, enroscados. <span>Orra White Hitchcock, hacia 1830.</span></figcaption></figure></li>
+                    </ol>
+                </div>
+            </div>
+            </div>
+            <div class="mesa mesa--pompa">
+                <figure class="mesa__pieza mesa__pieza--alta" data-entra>
+                    <img data-l="pompa" loading="lazy" sizes="(min-width: 900px) 30vw, 92vw" alt="Litografía de una pompa de jabón transparente que refleja una ventana, colgada de una pajita sobre fondo oscuro">
+                    <figcaption>Una pompa que refleja una ventana. <span>Alexandre-Blaise Desgoffe, 1882.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--media" data-entra>
+                    <img data-l="gota" loading="lazy" sizes="(min-width: 900px) 30vw, 92vw" alt="Seis fotografías de una gota que cae, toca una superficie y se aplasta">
+                    <figcaption>Una gota es una esfera hasta que toca algo. <span>Arthur Mason Worthington, 1895.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--chica" data-entra>
+                    <img data-l="cuchillo" loading="lazy" sizes="(min-width: 900px) 22vw, 80vw" alt="Arriba, un cuchillo mojado atraviesa una pompa sin romperla; abajo, tres pompas una dentro de otra">
+                    <figcaption>Un cuchillo mojado atraviesa la pompa sin romperla. <span>New Games and Amusements, 1905.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--chica" data-entra>
+                    <img data-l="globo" loading="lazy" sizes="(min-width: 900px) 22vw, 80vw" alt="Fotografía de un globo de vidrio sobre fondo negro, cruzado de grietas que salen de un punto">
+                    <figcaption>Un globo de vidrio reventado desde dentro. Nasmyth lo usó para explicar los rayos que salen de los cráteres de la Luna. <span>Nasmyth y Carpenter, 1874.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--media" data-entra>
+                    <img data-l="salpicadura" loading="lazy" sizes="(min-width: 900px) 26vw, 92vw" alt="Siluetas negras de una gota de mercurio que choca y se abre en una corona de puntas">
+                    <figcaption>Una gota de mercurio que choca abre una corona. <span>Worthington, 1895.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--media" data-entra>
+                    <img data-l="radiolarios" loading="lazy" sizes="(min-width: 900px) 24vw, 80vw" alt="Lámina de radiolarios: esferas caladas y espinosas de colores claros">
+                    <figcaption>Radiolarios: esqueletos esféricos de vidrio. <span>Ernst Haeckel, 1862.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--media" data-entra>
+                    <img data-l="radiolarios-2" loading="lazy" sizes="(min-width: 900px) 24vw, 80vw" alt="Otra lámina de radiolarios redondos, con perforaciones regulares y puntos de color">
+                    <figcaption>Más radiolarios. <span>Ernst Haeckel, 1862.</span></figcaption>
+                </figure>
+                <figure class="mesa__pieza mesa__pieza--alta" data-entra>
+                    <img data-l="schmidt" loading="lazy" sizes="(min-width: 900px) 24vw, 80vw" alt="Lámina azul con diatomeas redondas de distintos tamaños y una alargada">
+                    <figcaption>Diatomeas en azul de imprenta. <span>Adolf Schmidt, 1890.</span></figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Homo bulla y el cierre: el círculo vuelve a ser un punto y el punto se apaga -->
+        <section id="bulla" class="capitulo bulla" data-lugar="Homo bulla">
+            <div class="bulla__cuerpo">
+                <figure class="bulla__lamina" data-entra>
+                    <img data-l="homo-bulla" loading="lazy" sizes="(min-width: 900px) 34vw, 92vw" alt="Grabado de un niño desnudo que sopla pompas sentado sobre una calavera; abajo, la inscripción Quis evadet">
+                    <figcaption>Quis evadet? ¿Quién se libra? <span>Taller de Hendrick Goltzius, 1594.</span></figcaption>
+                </figure>
+                <div class="bulla__texto" data-entra>
+                    <h2 class="titulo">Homo bulla</h2>
+                    <p class="bulla__lema">El hombre es una pompa.</p>
+                    <p>Desde el Renacimiento la pompa de jabón fue el emblema de lo que dura poco. Es la esfera más perfecta que se puede hacer en casa, y la que menos dura.</p>
+                    <figure class="bulla__leclerc">
+                        <img data-l="leclerc" loading="lazy" sizes="(min-width: 900px) 18vw, 60vw" alt="Grabado de la Tierra cortada en anillos con un ángel que sopla una pompa debajo">
+                        <figcaption>Un corte de la Tierra y, debajo, un ángel que sopla pompas. <span>Sébastien Leclerc, 1706.</span></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="fin" class="final" data-lugar="Y así hasta el infinito">
+            <div class="final__escenario">
+                <div class="final__figura">{{svg:punto}}</div>
+                <figure class="final__nada">
+                    <img data-l="infinito" loading="lazy" sizes="(min-width: 900px) 40vh, 70vw" alt="Un cuadrado negro de grabado; en sus bordes, la inscripción Et sic in infinitum">
+                    <figcaption>Et sic in infinitum: y así hasta el infinito. La nada anterior al universo, según Robert Fludd, 1617.</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <div class="pie__firma">
+            <p class="pie__marca">Sphaera</p>
+            <p>Hecho por <a href="https://www.pedrogomez.dev/">Pedro Gómez</a>. El código está en <a href="https://github.com/CODIGOAFRX/sphaera" rel="noopener">GitHub</a>. Sin cookies ni analítica.</p>
+            <p>Tipografía: Jost, de Indestructible Type, heredera de la Futura de Paul Renner, que se dibujó a partir del círculo, el triángulo y el cuadrado.</p>
+        </div>
+        <details class="pie__creditos">
+            <summary>Las {{n}} láminas y de dónde vienen</summary>
+            <p>Todas son de dominio público y vienen del <a href="https://pdimagearchive.org/" rel="noopener">Public Domain Image Archive</a> de The Public Domain Review. Se han recortado, escalado y comprimido; ninguna se ha redibujado ni generado.</p>
+            <ol>
+{{creditos}}
+            </ol>
+        </details>
+    </footer>
+</body>
+
+</html>
