@@ -206,6 +206,11 @@ figcaption span { display: block; color: var(--gris); }
 }
 .portada__lamina figcaption { text-align: center; margin-inline: auto; opacity: var(--pie, 1); }
 
+/* Con escenas, la portada empieza cerrada desde el primer fotograma (la marca la pone arranque.js en el
+   <head>); después escenas.js lleva estas mismas variables en el propio elemento */
+.arranca .portada__disco { --abre: 0%; --traza: 1; --brazo: 0; --pz: 1.25; --pg: -40deg; }
+.arranca .portada__lamina { --pie: 0; }
+
 .compas { position: absolute; inset: 0; width: 100%; height: 100%; }
 .compas__traza { fill: none; stroke: var(--rojo); stroke-width: 1.5; stroke-dasharray: 1; stroke-dashoffset: var(--traza, 0); vector-effect: non-scaling-stroke; }
 .compas__brazo { stroke: var(--rojo); stroke-width: 1.5; vector-effect: non-scaling-stroke; opacity: var(--brazo, 0); transform: rotate(var(--giro, 0deg)); }
